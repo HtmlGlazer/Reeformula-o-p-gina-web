@@ -222,6 +222,12 @@ main {
   padding: 0.2em;
 }
 
+.ordem {
+  display: flex;
+  flex-flow: row;
+  justify-content: start;
+}
+
 footer {
   grid-column: 1 / -1;
   display: flex;
@@ -376,3 +382,4 @@ a:visited {
     font-size: 2.25rem;
   }
 }
+
